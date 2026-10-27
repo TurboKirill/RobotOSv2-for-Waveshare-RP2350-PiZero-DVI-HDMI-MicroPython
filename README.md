@@ -10,6 +10,13 @@
 
 <br/>
 
+<p align="center">
+  <b>🇷🇺 Русский</b> • <a href="README_EN.md">🇬🇧 English</a>
+</p>
+<p align="center">
+  <a href="README.md">🇷🇺 Русский</a> • <b>🇬🇧 English</b>
+</p>
+
 <img src="photo/RobotOS_640x480.png" alt="RobotOS Logo" width="600"/>
 
 <br/>
