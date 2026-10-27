@@ -10,7 +10,7 @@
 
 <br/>
 
-<img src="photo/Неоновый логотип RobotOS среди волн.png" alt="RobotOS Logo" width="600"/>
+<img src="photo/RobotOS_640x480.png" alt="RobotOS Logo" width="600"/>
 
 <br/>
 
@@ -27,9 +27,8 @@
 
 <div align="center">
 
-[![RobotOS Демонстрация](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![RobotOS Демонстрация](https://img.youtube.com/vi/i9Lud395al8/maxresdefault.jpg)](https://www.youtube.com/watch?v=i9Lud395al8)
 
-*(Замените `YOUR_VIDEO_ID` на ID вашего ролика на YouTube)*
 
 </div>
 
@@ -40,28 +39,28 @@
 <div align="center">
 <table>
   <tr>
-    <td align="center"><b>Рабочий стол Windows 2000</b></td>
-    <td align="center"><b>Плиточный режим Windows 10 (Metro UI)</b></td>
+    <td align="center"><b>Рабочий стол</b></td>
+    <td align="center"><b>Плиточный режим(Metro UI)</b></td>
   </tr>
   <tr>
-    <td><img src="photo/IMG_0850.JPG" width="380"/></td>
-    <td><img src="photo/IMG_0859.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0848.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0861.JPG" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Всплывающий Календарь и Часы</b></td>
-    <td align="center"><b>Игровой хаб Xbox Game Pass</b></td>
+    <td align="center"><b>Приложение WINAMP</b></td>
+    <td align="center"><b>Игровой хаб Xbox</b></td>
   </tr>
   <tr>
-    <td><img src="photo/IMG_0854.JPG" width="380"/></td>
-    <td><img src="photo/IMG_0855.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0852.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0849.JPG" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Видеопроигрыватель WMP (25 FPS)</b></td>
-    <td align="center"><b>Метеостанция и Климат</b></td>
+    <td align="center"><b>Internet Explorer (25 FPS)</b></td>
+    <td align="center"><b>Воспроизведение видео</b></td>
   </tr>
   <tr>
     <td><img src="photo/IMG_0856.JPG" width="380"/></td>
-    <td><img src="photo/IMG_0851.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0857.JPG" width="380"/></td>
   </tr>
 </table>
 </div>
@@ -72,7 +71,7 @@
 
 * **Ядро и BIOS**: POST-проверка оборудования, подсчёт SRAM, монтирование MicroSD, опрос линий и фирменный аккорд спикера.
 * **Два режима рабочего стола**:
-  * **Классический (Windows 2000/10)**: рабочий стол с выбором цвета заливки, ярлыками и меню «Пуск».
+  * **Классический (Windows 10)**: рабочий стол с выбором цвета заливки, ярлыками и меню «Пуск».
   * **Плиточный (Metro UI Windows 10)**: 11 живых плиток (Live Tiles) со швами 3 мм, 3D-переворотом, моргающими глазами робота и каноничными иконками.
 * **Панель задач (Taskbar)**:
   * Статус батареи и часы реального времени.
@@ -83,7 +82,7 @@
   * **Аудиоплеер WAV**: чтение русских тегов Windows CP1251, автопоиск по подпапкам, громкость на ассемблере Viper.
   * **Плеер Winamp**: ретро-эквалайзер, спектроанализатор и регулятор баланса.
   * **Полноэкранная Галерея**: моментальное открытие 16/24/32-битных BMP и сырых RAW-картинок за 30 мс.
-  * **Интернет-браузер Explorer**: GTA-стиль интерактивного интернета (Google, YouRobot, секретные архивы Пентагона, скачивание ОЗУ).
+  * **Интернет-браузер Explorer**:  Google, YouRobot, секретные архивы Пентагона, скачивание ОЗУ.
 * **Игры (Xbox Game Pass)**:
   * DOOM-Lite 3D (лучевой кастинг / raycasting).
   * Арканоид (Breakout) с физической сменой скоростей.
@@ -103,13 +102,13 @@
 
 ## 🛠️ Необходимое железо
 
-1. **Плата**: Waveshare RP2350-PiZero (RP2350B, 520KB SRAM + 8MB Flash).
-2. **Монитор**: Любой ТВ или монитор с разъёмом HDMI / DVI.
+1. **Плата**: Waveshare RP2350-PiZero (RP2350B, 520KB SRAM + 16MB Flash).
+2. **Монитор**: ТВ или монитор с разъёмом HDMI / DVI.
 3. **Кабель**: Mini-HDMI $\to$ HDMI (или DVI).
 4. **Аудио**: ЦАП I2S **MAX98357A** с динамиком 4–8 Ом (3W).
 5. **Клавиатура**: Любая PS/2 клавиатура (или USB через пассивный переходник).
 6. **Мышь (опционально)**: Мышь PS/2.
-7. **Карта памяти**: MicroSD от 2 ГБ до 32 ГБ (FAT32).
+7. **Карта памяти**: MicroSD до 32 ГБ (FAT32).
 8. **Датчики (опция)**: DHT22, BH1750, ИК-приёмник VS1838B (NEC).
 9. **Сервоприводы (опция)**: 2 шт. 360° (колёса), 1 шт. 180° (ковш).
 
@@ -119,28 +118,28 @@
 
 > ⚠️ **ВАЖНО**: На плате Waveshare RP2350-PiZero разъём выполнен в стандарте **Raspberry Pi (BCM)**. Физические номера ножек **НЕ совпадают** с номерами портов GPIO. Подключайте строго по этой таблице:
 
-| Назначение | Сигнал | Физ. пин разъёма | Порт GPIO | Примечание |
-| :--- | :--- | :---: | :---: | :--- |
-| **Питание** | **+5V (VCC)** | **Пин 2 или 4** | `5V / VBUS` | Питание ЦАП, клавиатуры, мыши |
-| | **+3.3V** | **Пин 1 или 17** | `3V3` | Питание сенсоров |
-| | **GND (Земля)** | **Пин 6, 9, 14, 20, 25, 30, 34, 39** | `GND` | Общий провод «земли» |
-| **Звук I2S** | **BCLK / SCK** | **Пин 19** | `GPIO 10` | Тактовая частота аудио |
-| *(MAX98357A)* | **LRC / WS** | **Пин 23** | `GPIO 11` | Выбор канала (левый/правый) |
-| | **DIN / SD** | **Пин 32** | `GPIO 12` | Цифровые данные звука |
-| **Клавиатура** | **CLK** | **Пин 8** | `GPIO 14` | Аппаратный приём PIO |
-| *(PS/2)* | **DATA** | **Пин 10** | `GPIO 15` | Аппаратный приём PIO |
-| **Мышь (опция)**| **CLK** | **Пин 18** | `GPIO 24` | Прерывание мыши |
-| *(PS/2)* | **DATA** | **Пин 22** | `GPIO 25` | Данные координат |
-| | *Земля мыши* | **Пин 20** | `GND` | Пины 18–20–22 идут подряд! |
-| **Сенсоры / ДУ**| **ИК-приёмник** | **Пин 5** | `GPIO 3` | Сигнал пульта (NEC) |
-| | **BH1750 SDA** | **Пин 7** | `GPIO 4` | I2C0 шина света |
-| | **BH1750 SCL** | **Пин 29** | `GPIO 5` | I2C0 такты |
-| | **DHT22 Data** | **Пин 33** | `GPIO 13` | 1-Wire температура/влажность |
-| **Робот (Серво)**| **Ковш 180°** | **Пин 27** | `GPIO 0` | ШИМ 50 Гц |
-| | **Правое колесо**| **Пин 28** | `GPIO 1` | ШИМ 50 Гц (360°) |
-| | **Левое колесо** | **Пин 3** | `GPIO 2` | ШИМ 50 Гц (360°) |
-| **Впаяно:** | **MicroSD** | *Слот на плате* | `GP30, 31, 40, 43` | Шина SPI1 |
-| | **HDMI / DVI** | *Mini-HDMI порт* | `GP16 .. GP23` | PIO2 Видеогенератор |
+| Назначение | Сигнал | Порт GPIO | Примечание |
+| :--- | :--- | :---: | :--- |
+| **Питание** | `5V / VBUS` | Питание ЦАП, клавиатуры, мыши |
+| | **+3.3V** | `3V3` | Питание сенсоров |
+| | **GND (Земля)** | `GND` | Общий провод «земли» |
+| **Звук I2S** | **BCLK / SCK** | `GPIO 10` | Тактовая частота аудио |
+| *(MAX98357A)* | **LRC / WS** | `GPIO 11` | Выбор канала (левый/правый) |
+| | **DIN / SD** | `GPIO 12` | Цифровые данные звука |
+| **Клавиатура** | **CLK** | `GPIO 14` | Аппаратный приём PIO |
+| *(PS/2)* | **DATA** | `GPIO 15` | Аппаратный приём PIO |
+| **Мышь (опция)**| **CLK** | `GPIO 24` | Прерывание мыши |
+| *(PS/2)* | **DATA** | `GPIO 25` | Данные координат |
+| | *Земля мыши* | `GND` | Пины 18–20–22 идут подряд! |
+| **Сенсоры / ДУ**| **ИК-приёмник** | `GPIO 3` | Сигнал пульта (NEC) |
+| | **BH1750 SDA** | `GPIO 4` | I2C0 шина света |
+| | **BH1750 SCL** | `GPIO 5` | I2C0 такты |
+| | **DHT22 Data** | `GPIO 13` | 1-Wire температура/влажность |
+| **Робот (Серво)**| **Ковш 180°** | `GPIO 0` | ШИМ 50 Гц |
+| | **Правое колесо**| `GPIO 1` | ШИМ 50 Гц (360°) |
+| | **Левое колесо** | `GPIO 2` | ШИМ 50 Гц (360°) |
+| **Впаяно:** | **MicroSD** | `GP30, 31, 40, 43` | Шина SPI1 |
+| | **HDMI / DVI** | `GP16 .. GP23` | PIO2 Видеогенератор |
 
 ---
 
@@ -163,14 +162,14 @@
 │
 ├── main.py                       # Точка входа: старт видео, звука, BIOS и рабочего стола
 ├── bios.py                       # POST загрузчик с тестом памяти и системным аккордом
-├── gui.py                        # Оболочка Windows 2000/10 (базовая версия)
+├── gui.py                        # Оболочка Windows 10 (базовая версия)
 ├── gui(with mouse).py            # Версия оболочки с курсором мыши и меню ПКМ
 ├── input_mgr.py                  # Диспетчер ввода (Клавиатура + ИК-Пульт)
 ├── input_mgr(with mouse).py      # Диспетчер ввода с поддержкой мыши
 ├── apps_reg.py                   # Реестр установленных приложений
 ├── app_uninstaller.py            # Менеджер пакетов (установка/удаление/корзина)
 ├── sites_data.py                 # База веб-страниц для браузера
-├── install_readme.txt            # Инструкция по созданию своих приложений
+├── readme.txt                    # Инструкция
 │
 └── [ПРИЛОЖЕНИЯ И ИГРЫ]:
     ├── app_cmd.py                # Командная строка CMD.EXE
@@ -280,9 +279,8 @@ Author: **Kirill Dmitriev**, 2026.
 
 <div align="center">
 
-[![RobotOS YouTube Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![RobotOS YouTube Demo](https://img.youtube.com/vi/i9Lud395al8/maxresdefault.jpg)](https://www.youtube.com/watch?v=i9Lud395al8)
 
-*(Replace `YOUR_VIDEO_ID` with your real YouTube video ID)*
 
 </div>
 
@@ -293,28 +291,28 @@ Author: **Kirill Dmitriev**, 2026.
 <div align="center">
 <table>
   <tr>
-    <td align="center"><b>Windows 2000 Classic Desktop</b></td>
-    <td align="center"><b>Windows 10 Metro Live Tiles UI</b></td>
+    <td align="center"><b>Desctop</b></td>
+    <td align="center"><b>Tale style(Metro UI)</b></td>
   </tr>
   <tr>
-    <td><img src="photo/IMG_0850.JPG" width="380"/></td>
-    <td><img src="photo/IMG_0859.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0848.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0861.JPG" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Calendar & Clock Popup Widget</b></td>
-    <td align="center"><b>Xbox Game Pass Hub</b></td>
+    <td align="center"><b>App WINAMP</b></td>
+    <td align="center"><b>Game Hub Xbox</b></td>
   </tr>
   <tr>
-    <td><img src="photo/IMG_0854.JPG" width="380"/></td>
-    <td><img src="photo/IMG_0855.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0852.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0849.JPG" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>WMP Video Player (25 FPS)</b></td>
-    <td align="center"><b>Weather & Climate Station</b></td>
+    <td align="center"><b>Internet Explorer (25 FPS)</b></td>
+    <td align="center"><b>Video player</b></td>
   </tr>
   <tr>
     <td><img src="photo/IMG_0856.JPG" width="380"/></td>
-    <td><img src="photo/IMG_0851.JPG" width="380"/></td>
+    <td><img src="photo/IMG_0857.JPG" width="380"/></td>
   </tr>
 </table>
 </div>
@@ -325,7 +323,7 @@ Author: **Kirill Dmitriev**, 2026.
 
 * **Kernel & BIOS POST**: Hardware initialization test, memory verification, SD check, system speaker beep, and signature power-on chime.
 * **Dual Desktop Modes**:
-  * **Classic Mode (Windows 2000/10)**: Classic desktop with customizable background colors, desktop icons, and Windows Start menu.
+  * **Classic Mode (Windows 10)**: Classic desktop with customizable background colors, desktop icons, and Windows Start menu.
   * **Live Tiles Mode (Windows 10 Metro UI)**: Interactive 11-tile mosaic with tight 3px gaps, 3D flip animations, real-time blinking robot eyes, and live widgets.
 * **Taskbar & Navigation**:
   * Battery indicator and real-time clock.
@@ -357,13 +355,13 @@ Author: **Kirill Dmitriev**, 2026.
 
 ## 🛠️ Hardware Requirements
 
-1. **Board**: Waveshare RP2350-PiZero (RP2350B, 520KB SRAM + 8MB Flash).
-2. **Display**: Any PC monitor or TV with HDMI / DVI input.
+1. **Board**: Waveshare RP2350-PiZero (RP2350B, 520KB SRAM + 16MB Flash).
+2. **Display**: PC monitor or TV with HDMI / DVI input.
 3. **Cable**: Mini-HDMI to HDMI (or DVI) cable.
 4. **Audio DAC**: I2S **MAX98357A** amplifier module + 4–8 Ohm speaker (3W).
 5. **Keyboard**: Standard **PS/2 keyboard** (or USB keyboard via passive USB-to-PS/2 adapter).
 6. **Mouse (optional)**: PS/2 mouse (supported in the mouse-enabled build).
-7. **MicroSD Card**: 2GB to 32GB (FAT32 formatted).
+7. **MicroSD Card**: to 32GB (FAT32 formatted).
 8. **Sensors (optional)**: DHT22 (AM2302), BH1750 (I2C ambient light sensor), VS1838B IR receiver.
 9. **Servos (optional)**: 2x 360° continuous rotation servos (wheels), 1x 180° standard servo (bucket).
 
@@ -373,28 +371,28 @@ Author: **Kirill Dmitriev**, 2026.
 
 > ⚠️ **IMPORTANT**: The Waveshare RP2350-PiZero header uses the standard **Raspberry Pi (BCM)** pinout layout. Physical pin numbers on the header **DO NOT match** MicroPython GPIO numbers! Wire your peripherals strictly according to this table:
 
-| Peripheral | Signal Line | Physical Pin on Board | MicroPython Port (GPIO) | Notes |
-| :--- | :--- | :---: | :---: | :--- |
-| **System Power** | **+5V (VCC)** | **Pin 2 or 4** | `5V / VBUS` | Power for DAC, Keyboard, Mouse |
-| | **+3.3V** | **Pin 1 or 17** | `3V3` | Power for sensors |
-| | **GND (Common)** | **Pins 6, 9, 14, 20, 25, 30, 34, 39** | `GND` | Connect all ground lines together |
-| **Audio I2S** | **BCLK / SCK** | **Pin 19** | `GPIO 10` | Audio Bit Clock |
-| *(MAX98357A)* | **LRC / WS** | **Pin 23** | `GPIO 11` | Left/Right Channel Select |
-| | **DIN / SD** | **Pin 32** | `GPIO 12` | Digital Audio Data |
-| **Keyboard** | **Clock (CLK)** | **Pin 8** | `GPIO 14` | Hardware PIO RX |
-| *(PS/2)* | **Data (DATA)** | **Pin 10** | `GPIO 15` | Hardware PIO RX |
-| **Mouse (Optional)** | **Clock (CLK)** | **Pin 18** | `GPIO 24` | GPIO Hardware IRQ |
-| *(PS/2)* | **Data (DATA)** | **Pin 22** | `GPIO 25` | Bidirectional Data |
-| | *Mouse GND* | **Pin 20** | `GND` | Pins 18-20-22 are in one row! |
-| **Sensors & Remote** | **IR Receiver** | **Pin 5** | `GPIO 3` | NEC Protocol Remote Signal |
-| | **BH1750 SDA** | **Pin 7** | `GPIO 4` | I2C0 Data |
-| | **BH1750 SCL** | **Pin 29** | `GPIO 5` | I2C0 Clock |
-| | **DHT22 Data** | **Pin 33** | `GPIO 13` | 1-Wire Temp/Humidity |
-| **Robotics (Servos)** | **Bucket 180°** | **Pin 27** | `GPIO 0` | 50 Hz PWM |
-| | **Right Wheel** | **Pin 28** | `GPIO 1` | 50 Hz PWM (360°) |
-| | **Left Wheel** | **Pin 3** | `GPIO 2` | 50 Hz PWM (360°) |
-| **Onboard Slots:** | **MicroSD Card**| *Onboard Slot* | `GP30, 31, 40, 43` | SPI1 Bus |
-| | **HDMI / DVI** | *Mini-HDMI Port*| `GP16 .. GP23` | PIO2 Video Engine |
+| Peripheral | Signal Line | MicroPython Port (GPIO) | Notes |
+| :--- | :--- | :---: | :--- |
+| **System Power** | **+5V (VCC)** | `5V / VBUS` | Power for DAC, Keyboard, Mouse |
+| | **+3.3V** | `3V3` | Power for sensors |
+| | **GND (Common)** | `GND` | Connect all ground lines together |
+| **Audio I2S** | **BCLK / SCK** | `GPIO 10` | Audio Bit Clock |
+| *(MAX98357A)* | **LRC / WS** | `GPIO 11` | Left/Right Channel Select |
+| | **DIN / SD** | `GPIO 12` | Digital Audio Data |
+| **Keyboard** | **Clock (CLK)** | `GPIO 14` | Hardware PIO RX |
+| *(PS/2)* | **Data (DATA)** | `GPIO 15` | Hardware PIO RX |
+| **Mouse (Optional)** | **Clock (CLK)** | `GPIO 24` | GPIO Hardware IRQ |
+| *(PS/2)* | **Data (DATA)** | `GPIO 25` | Bidirectional Data |
+| | *Mouse GND* | `GND` | Pins 18-20-22 are in one row! |
+| **Sensors & Remote** | **IR Receiver** | `GPIO 3` | NEC Protocol Remote Signal |
+| | **BH1750 SDA** | `GPIO 4` | I2C0 Data |
+| | **BH1750 SCL** | `GPIO 5` | I2C0 Clock |
+| | **DHT22 Data** | `GPIO 13` | 1-Wire Temp/Humidity |
+| **Robotics (Servos)** | **Bucket 180°** | `GPIO 0` | 50 Hz PWM |
+| | **Right Wheel** | `GPIO 1` | 50 Hz PWM (360°) |
+| | **Left Wheel** | `GPIO 2` | 50 Hz PWM (360°) |
+| **Onboard Slots:** | **MicroSD Card**| `GP30, 31, 40, 43` | SPI1 Bus |
+| | **HDMI / DVI** | `GP16 .. GP23` | PIO2 Video Engine |
 
 ---
 
@@ -424,7 +422,7 @@ Author: **Kirill Dmitriev**, 2026.
 ├── apps_reg.py                   # Central application registry
 ├── app_uninstaller.py            # Package manager (install/remove/trash)
 ├── sites_data.py                 # In-game websites database for Explorer
-├── install_readme.txt            # Guide on writing and packaging third-party apps
+├── readme.txt                    # Guide
 │
 └── [APPLICATIONS & GAMES]:
     ├── app_cmd.py                # Command Prompt CMD.EXE
