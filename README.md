@@ -1,5 +1,11 @@
 <div align="center">
 
+<p align="center">
+  <a href="#russian"><b>🇷🇺 Читать на русском</b></a> • <a href="#english"><b>🇬🇧 Read in English</b></a>
+</p>
+
+<a id="russian"></a>
+
 # 🤖 RobotOS v2.0 — DVI Edition
 ### Модульная операционная система с GUI для Raspberry Pi RP2350 (DVI / HDMI 320x240 @ 60Hz)
 
@@ -9,13 +15,6 @@
 ![Звук](https://img.shields.io/badge/Звук-I2S%20MAX98357A-purple?style=for-the-badge)
 
 <br/>
-
-<p align="center">
-  <b>🇷🇺 Русский</b> • <a href="README_EN.md">🇬🇧 English</a>
-</p>
-<p align="center">
-  <a href="README.md">🇷🇺 Русский</a> • <b>🇬🇧 English</b>
-</p>
 
 <img src="photo/RobotOS_640x480.png" alt="RobotOS Logo" width="600"/>
 
@@ -256,6 +255,8 @@
 * **СТРОГО ЗАПРЕЩЕНО**: Коммерческое использование, предустановка на продаваемые устройства, перепродажа прошивки или её компонентов без согласия автора.
 
 <div align="center">
+
+<a id="english"></a>
 
 # 🤖 RobotOS v2.0 — DVI Edition
 ### Modular GUI Operating System for Raspberry Pi RP2350 (DVI / HDMI 320x240 @ 60Hz)
